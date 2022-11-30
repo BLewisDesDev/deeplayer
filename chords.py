@@ -50,9 +50,9 @@ def genprog(dir, key, chords, prefix):
         "--key", f"{key}", "-N", f"{prefix} - {chords}", "--output", 
         f"{dir}/{prefix} - {chords}.mid"])
     c2m_obj.handle(args)
-
-
+		
 num = 1
+
 # Iterate for each key
 for key in keys:
 
